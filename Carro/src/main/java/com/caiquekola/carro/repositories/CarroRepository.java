@@ -1,6 +1,6 @@
 package com.caiquekola.carro.repositories;
 
-import com.caiquekola.carro.models.Carro;
+import com.caiquekola.carro.models.Carro.Carro;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CarroRepository extends JpaRepository<Carro, Long> {
