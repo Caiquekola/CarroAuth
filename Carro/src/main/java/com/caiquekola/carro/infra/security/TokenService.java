@@ -1,6 +1,7 @@
 package com.caiquekola.carro.infra.security;
 
 import com.auth0.jwt.algorithms.Algorithm;
+import com.caiquekola.carro.models.User.User;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -13,5 +14,6 @@ public class TokenService {
         }catch (Exception e){
 
         }
+        return "";
     }
 }

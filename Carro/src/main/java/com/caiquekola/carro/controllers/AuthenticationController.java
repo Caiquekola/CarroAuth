@@ -1,8 +1,5 @@
 package com.caiquekola.carro.controllers;
 
-import com.caiquekola.carro.models.User.AuthenticationDTO;
-import com.caiquekola.carro.models.User.RegisterDTO;
-import com.caiquekola.carro.models.User.User;
 import com.caiquekola.carro.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,8 @@
 package com.caiquekola.carro.controllers;
 
 import com.caiquekola.carro.repositories.CarroRepository;
-import com.caiquekola.carro.models.Carro.Carro;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
