@@ -1,4 +1,4 @@
-package com.caiquekola.carro;
+package com.caiquekola;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CarroApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CarroApplication.class, args);
+        SpringApplication. run(CarroApplication.class, args);
     }
 
 }

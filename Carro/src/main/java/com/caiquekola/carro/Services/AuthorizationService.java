@@ -1,6 +1,6 @@
-package com.caiquekola.carro.Services;
+package com.caiquekola.Services;
 
-import com.caiquekola.carro.repositories.UserRepository;
+import com.caiquekola.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
